@@ -8,7 +8,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 console.log("hi");
 // console.log('Environment variables loaded:', process.env);
-Connection();
+// Connection();
 const app = express();
 
 app.use(cors());
